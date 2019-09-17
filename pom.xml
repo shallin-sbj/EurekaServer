@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.sucl.eureka</groupId>
     <artifactId>eurekaserver</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>v2</version>
     <packaging>jar</packaging>
     <name>eurekaserver</name>
     <description>eureka-server</description>
@@ -39,6 +39,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.1.8.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

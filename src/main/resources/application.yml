@@ -1,6 +1,10 @@
 spring:
   application:
     name: eurekaserver
+  security:
+    user:
+      name: admin
+      password: su123;
 server:
   port: 8520
 
